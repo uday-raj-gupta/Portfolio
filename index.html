@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uday Raj Gupta — Developer & Designer</title>
+  <meta name="description" content="Uday Raj Gupta — B.Tech CSE Student, Web Developer, UI & Graphics Designer, IIC-VGU Student Coordinator." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============================
+     MOBILE HEADER (top bar)
+============================= -->
+<div class="mobile-header">
+  <div class="mobile-logo">URG</div>
+  <button class="mobile-menu-btn" id="mobileMenuBtn">
+    <span></span><span></span><span></span>
+  </button>
+</div>
+
+<!-- ============================
+     LEFT SIDEBAR
+============================= -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar__inner">
+
+    <!-- LOGO / NAME -->
+    <div class="sidebar__brand">
+      <div class="sidebar__logo">INBIO</div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="sidebar__nav">
+      <a href="#home"          class="sidebar__nav-link active" data-section="home">Home</a>
+      <a href="#whatido"       class="sidebar__nav-link" data-section="whatido">Features</a>
+      <a href="#portfolio"     class="sidebar__nav-link" data-section="portfolio">Portfolio</a>
+      <a href="#resume"        class="sidebar__nav-link" data-section="resume">Resume</a>
+      <a href="#services"      class="sidebar__nav-link" data-section="services">Clients</a>
+      <a href="#pricing"       class="sidebar__nav-link" data-section="pricing">Pricing</a>
+      <a href="#blog"          class="sidebar__nav-link" data-section="blog">Blog</a>
+      <a href="#contact"       class="sidebar__nav-link" data-section="contact">Contact</a>
+    </nav>
+
+    <!-- SOCIAL -->
+    <div class="sidebar__social">
+      <a href="https://linkedin.com" target="_blank" title="LinkedIn">in</a>
+      <a href="https://github.com"   target="_blank" title="GitHub">gh</a>
+      <a href="https://youtube.com"  target="_blank" title="YouTube">yt</a>
+    </div>
+
+    <!-- BUY / HIRE BUTTON -->
+    <a href="#contact" class="sidebar__hire-btn">HIRE ME</a>
+
+  </div>
+</aside>
+
+<!-- ============================
+     MAIN CONTENT
+============================= -->
+<main class="main-content">
+
+  <!-- ── SECTION 1: HOME / HERO ─────────────────────── -->
+  <section id="home" class="section section-home">
+    <div class="home-inner">
+      <div class="home-text">
+
+        <p class="home-welcome fade-up">WELCOME TO MY WORLD</p>
+
+        <h1 class="home-heading fade-up delay-1">
+          Hi, I'm <span class="accent">Uday Raj</span><br>
+          <span class="accent">Gupta.</span>
+        </h1>
+
+        <h2 class="home-subtitle fade-up delay-2">
+          a <span class="accent">Developer & Designer.</span>
+        </h2>
+
+        <p class="home-bio fade-up delay-3">
+          I'm a B.Tech CSE student at Vivekananda Global University, Jaipur, building real-world solutions
+          and leading innovation as Student Coordinator at IIC-VGU. I simplify complex problems and build
+          things that make life easier — from responsive websites to automation scripts.
+        </p>
+
+        <div class="home-meta fade-up delay-4">
+          <div class="home-meta-group">
+            <span class="home-meta-label">FIND WITH ME</span>
+            <div class="home-socials">
+              <a href="https://github.com"    target="_blank" class="social-icon">GH</a>
+              <a href="https://linkedin.com"  target="_blank" class="social-icon">IN</a>
+              <a href="https://youtube.com"   target="_blank" class="social-icon">YT</a>
+            </div>
+          </div>
+          <div class="home-meta-divider"></div>
+          <div class="home-meta-group">
+            <span class="home-meta-label">BEST SKILL ON</span>
+            <div class="home-socials">
+              <a href="https://github.com"           target="_blank" class="social-icon si-git">GIT</a>
+              <a href="https://geeksforgeeks.org"    target="_blank" class="social-icon si-gfg">GFG</a>
+              <a href="https://figma.com"            target="_blank" class="social-icon si-fig">FIG</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="home-actions fade-up delay-5">
+          <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+          <a href="#contact"   class="btn btn-outline">Hire Me</a>
+          <a href="#"          class="btn btn-outline" download>Download CV</a>
+        </div>
+
+      </div>
+
+      <div class="home-photo fade-in-right delay-2">
+        <div class="photo-frame">
+          <div class="photo-placeholder">
+            <div class="photo-initials">URG</div>
+          </div>
+          <div class="photo-badge">
+            <span class="badge-icon">⚡</span>
+            <div>
+              <strong>IIC-VGU</strong>
+              <small>Coordinator</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats strip -->
+        <div class="home-stats">
+          <div class="home-stat">
+            <span class="stat-num" data-count="15" data-suffix="+">0+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="home-stat">
+            <span class="stat-num" data-count="6" data-suffix="+">0+</span>
+            <span class="stat-label">Hackathons</span>
+          </div>
+          <div class="home-stat">
+            <span class="stat-num" data-count="100" data-suffix="+">0+</span>
+            <span class="stat-label">Designs</span>
+          </div>
+          <div class="home-stat">
+            <span class="stat-num" data-count="2" data-suffix="+">0+</span>
+            <span class="stat-label">Ventures</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SECTION 2: WHAT I DO ───────────────────────── -->
+  <section id="whatido" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <span class="section-eyebrow">FEATURES</span>
+        <h2 class="section-title">What I Do</h2>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card fade-up">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>Web Development</h3>
+          <p>Building responsive, fast, and clean websites using HTML5, CSS3, and JavaScript. From landing pages to full portfolio sites — pixel-perfect and mobile-first.</p>
+        </div>
+
+        <div class="service-card fade-up delay-1">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>User-centered design that balances aesthetics with usability. Wireframes, high-fidelity mockups, and interactive Figma prototypes built for real users.</p>
+        </div>
+
+        <div class="service-card fade-up delay-2">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Python & Automation</h3>
+          <p>Scripting and automation solutions using Python — file management, web scraping, data processing, and task scheduling for real workflow problems.</p>
+        </div>
+
+        <div class="service-card fade-up delay-1">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3>Graphic Design</h3>
+          <p>Eye-catching social media posters, event banners, flyers, and brand identity materials. Quick turnaround with a strong visual sense through YP Graphix.</p>
+        </div>
+
+        <div class="service-card fade-up delay-2">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+          </div>
+          <h3>YouTube & Content</h3>
+          <p>Video editing, thumbnail design, and content creation for YouTube. Running YP Logix — a channel for tech insights, student life, and career content.</p>
+        </div>
+
+        <div class="service-card fade-up delay-3">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Innovation & Leadership</h3>
+          <p>Student Coordinator at IIC-VGU — organizing hackathons, webathons, and tech events. Leading 20+ teams in campus innovation challenges and ideathons.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SECTION 3: PORTFOLIO ───────────────────────── -->
+  <section id="portfolio" class="section">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <span class="section-eyebrow">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</span>
+        <h2 class="section-title">My Portfolio</h2>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="portfolio-filter fade-up delay-1">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Dev</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="hackathon">Hackathon</button>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <div class="portfolio-item fade-up" data-category="web">
+          <div class="portfolio-thumb port-blue">
+            <span class="port-emoji">🌐</span>
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link">Live ↗</a>
+                <a href="#" class="port-link">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="port-category accent">Web Development</span>
+            <h3>Portfolio Website</h3>
+            <p>Multi-page personal portfolio built from scratch with HTML, CSS & JS animations.</p>
+            <div class="port-meta">
+              <span>👁 1.2k</span>
+              <span>❤ 48</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-up delay-1" data-category="design">
+          <div class="portfolio-thumb port-pink">
+            <span class="port-emoji">🎨</span>
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link">View ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="port-category accent">Graphic Design</span>
+            <h3>YP Graphix Brand Identity</h3>
+            <p>Complete visual identity — logo, color palette, social media kit and brand guide.</p>
+            <div class="port-meta">
+              <span>👁 980</span>
+              <span>❤ 67</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-up delay-2" data-category="python">
+          <div class="portfolio-thumb port-green">
+            <span class="port-emoji">🤖</span>
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="port-category accent">Python</span>
+            <h3>Automation Suite</h3>
+            <p>File management, web scraping, and task scheduling scripts from LinuxWorld training.</p>
+            <div class="port-meta">
+              <span>👁 720</span>
+              <span>❤ 31</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-up" data-category="web">
+          <div class="portfolio-thumb port-purple">
+            <span class="port-emoji">📊</span>
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link">Live ↗</a>
+                <a href="#" class="port-link">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="port-category accent">Web Development</span>
+            <h3>Analytics Dashboard UI</h3>
+            <p>Responsive analytics dashboard with charts, KPIs and data visualization.</p>
+            <div class="port-meta">
+              <span>👁 540</span>
+              <span>❤ 29</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-up delay-1" data-category="hackathon">
+          <div class="portfolio-thumb port-orange">
+            <span class="port-emoji">⚡</span>
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="port-category accent">Hackathon</span>
+            <h3>Smart Campus Solution</h3>
+            <p>24-hour hackathon project — real-time campus resource management system.</p>
+            <div class="port-meta">
+              <span>👁 860</span>
+              <span>❤ 52</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-up delay-2" data-category="design">
+          <div class="portfolio-thumb port-teal">
+            <span class="port-emoji">📱</span>
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link">Figma ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="port-category accent">UI Design</span>
+            <h3>Campus Event App UI</h3>
+            <p>Mobile UI/UX design for campus event management app with interactive Figma prototype.</p>
+            <div class="port-meta">
+              <span>👁 430</span>
+              <span>❤ 38</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SECTION 4: RESUME ──────────────────────────── -->
+  <section id="resume" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <span class="section-eyebrow">7+ YEARS OF EXPERIENCE</span>
+        <h2 class="section-title">My Resume</h2>
+      </div>
+
+      <!-- Resume Tabs -->
+      <div class="resume-tabs fade-up delay-1">
+        <button class="resume-tab active" data-tab="education">Education</button>
+        <button class="resume-tab" data-tab="skills">Professional Skills</button>
+        <button class="resume-tab" data-tab="experience">Experience</button>
+        <button class="resume-tab" data-tab="achievements">Achievements</button>
+      </div>
+
+      <!-- TAB: Education -->
+      <div class="resume-panel active" id="tab-education">
+        <div class="resume-two-col fade-up">
+          <div class="resume-col">
+            <h3 class="resume-col-title">
+              <span class="resume-col-icon">🎓</span> Education Quality
+            </h3>
+            <div class="resume-item">
+              <span class="resume-year accent">2024 – 2028</span>
+              <h4>B.Tech — Computer Science & Engineering</h4>
+              <p class="resume-org">Vivekananda Global University, Jaipur</p>
+              <div class="resume-grade">CGPA: <span class="accent">8.5/10</span></div>
+              <p>Pursuing CSE with focus on web development, software engineering, and innovation leadership. Active at IIC and various tech communities.</p>
+            </div>
+            <div class="resume-item">
+              <span class="resume-year accent">2022 – 2024</span>
+              <h4>Higher Secondary — Science Stream (12th)</h4>
+              <p class="resume-org">Rajasthan State Board</p>
+              <div class="resume-grade">Score: <span class="accent">82%</span></div>
+              <p>Studied Physics, Chemistry, Maths & Computer Science. Built a strong foundation in logical problem solving.</p>
+            </div>
+            <div class="resume-item">
+              <span class="resume-year accent">2020 – 2022</span>
+              <h4>Secondary Education (10th)</h4>
+              <p class="resume-org">Central Board of Secondary Education</p>
+              <div class="resume-grade">Score: <span class="accent">86%</span></div>
+              <p>Excelled in Maths and Science. First exposure to programming through basic computer science coursework.</p>
+            </div>
+          </div>
+          <div class="resume-col">
+            <h3 class="resume-col-title">
+              <span class="resume-col-icon">💼</span> Job Experience
+            </h3>
+            <div class="resume-item">
+              <span class="resume-year accent">2026 – Present</span>
+              <h4>Student Coordinator</h4>
+              <p class="resume-org">Institution's Innovation Council — IIC-VGU</p>
+              <p>Leading innovation events, hackathons, and tech initiatives. Coordinating between students, faculty, and industry mentors to foster innovation culture on campus.</p>
+            </div>
+            <div class="resume-item">
+              <span class="resume-year accent">2024</span>
+              <h4>Python & Automation Trainee</h4>
+              <p class="resume-org">LinuxWorld Informatics, Jaipur</p>
+              <p>Completed hands-on training in Python scripting and automation. Built real automation scripts for file management, scraping, and task scheduling.</p>
+            </div>
+            <div class="resume-item">
+              <span class="resume-year accent">2023 – Present</span>
+              <h4>Founder & Lead Designer</h4>
+              <p class="resume-org">YP Graphix — Freelance Studio</p>
+              <p>Founded freelance design studio offering UI/UX, graphic design, social media branding, and visual identity services to businesses and creators.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB: Skills -->
+      <div class="resume-panel" id="tab-skills">
+        <div class="resume-two-col fade-up">
+          <div class="resume-col">
+            <h3 class="resume-col-title">
+              <span class="resume-col-icon">💻</span> Development Skills
+            </h3>
+            <div class="skill-bar-wrap">
+              <div class="skill-entry">
+                <div class="skill-info"><span>HTML5 / CSS3</span><span class="accent">90%</span></div>
+                <div class="skill-track"><div class="skill-fill" data-width="90"></div></div>
+              </div>
+              <div class="skill-entry">
+                <div class="skill-info"><span>JavaScript (ES6+)</span><span class="accent">78%</span></div>
+                <div class="skill-track"><div class="skill-fill" data-width="78"></div></div>
+              </div>
+              <div class="skill-entry">
+                <div class="skill-info"><span>Python</span><span class="accent">75%</span></div>
+                <div class="skill-track"><div class="skill-fill" data-width="75"></div></div>
+              </div>
+              <div class="skill-entry">
+                <div class="skill-info"><span>C / Java</span><span class="accent">65%</span></div>
+                <div class="skill-track"><div class="skill-fill" data-width="65"></div></div>
+              </div>
+              <div class="skill-entry">
+                <div class="skill-info"><span>Git & GitHub</span><span class="accent">80%</span></div>
+                <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="resume-col">
+            <h3 class="resume-col-title">
+              <span class="resume-col-icon">🎨</span> Design Skills
+            </h3>
+            <div class="skill-bar-wrap">
+              <div class="skill-entry">
+                <div class="skill-info"><span>UI/UX Design</span><span class="accent">85%</span></div>
+                <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+              </div>
+              <div class="skill-entry">
+                <div class="skill-info"><span>Graphic Design</span><span class="accent">88%</span></div>
+                <div class="skill-track"><div class="skill-fill" data-width="88"></div></div>
+              </div>
+              <div class="skill-entry">
+                <div class="skill-info"><span>Figma</span><span class="accent">80%</span></div>
+                <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+              </div>
+              <div class="skill-entry">
+                <div class="skill-info"><span>Adobe Photoshop</span><span class="accent">72%</span></div>
+                <div class="skill-track"><div class="skill-fill" data-width="72"></div></div>
+              </div>
+              <div class="skill-entry">
+                <div class="skill-info"><span>Video Editing</span><span class="accent">70%</span></div>
+                <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB: Experience -->
+      <div class="resume-panel" id="tab-experience">
+        <div class="resume-two-col fade-up">
+          <div class="resume-col">
+            <h3 class="resume-col-title"><span class="resume-col-icon">🏛️</span> Leadership</h3>
+            <div class="resume-item">
+              <span class="resume-year accent">2026 – Present</span>
+              <h4>Student Coordinator — IIC-VGU</h4>
+              <p>Organizing hackathons, webathons, ideathons. Managed 20+ teams. Bridging students and industry mentors for innovation activities.</p>
+            </div>
+            <div class="resume-item">
+              <span class="resume-year accent">2024</span>
+              <h4>Python Training — LinuxWorld</h4>
+              <p>Intensive hands-on training covering Python programming, automation scripting, and Linux environment workflows.</p>
+            </div>
+          </div>
+          <div class="resume-col">
+            <h3 class="resume-col-title"><span class="resume-col-icon">🚀</span> Ventures</h3>
+            <div class="resume-item">
+              <span class="resume-year accent">2023 – Present</span>
+              <h4>YP Graphix — Freelance Designer</h4>
+              <p>Founded and operate a freelance design studio. Delivered UI/UX, brand identity, posters, and social media kits for businesses and student orgs.</p>
+            </div>
+            <div class="resume-item">
+              <span class="resume-year accent">2023 – Present</span>
+              <h4>YP Logix — YouTube Creator</h4>
+              <p>Creating tech content, hackathon vlogs, and career guidance videos. Growing audience of college students and tech enthusiasts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB: Achievements -->
+      <div class="resume-panel" id="tab-achievements">
+        <div class="resume-two-col fade-up">
+          <div class="resume-col">
+            <h3 class="resume-col-title"><span class="resume-col-icon">🏆</span> Competitions</h3>
+            <div class="resume-item">
+              <span class="resume-year accent">2025 — VGU Campus</span>
+              <h4>Smart Campus Hackathon — Finalist</h4>
+              <div class="resume-grade">Result: <span class="accent">Finalist</span></div>
+              <p>Built real-time campus resource management system in 24 hours with a team of 4.</p>
+            </div>
+            <div class="resume-item">
+              <span class="resume-year accent">2025 — State Level</span>
+              <h4>EcoTrack Ideathon — Recognized</h4>
+              <div class="resume-grade">Result: <span class="accent">Recognized</span></div>
+              <p>Carbon footprint tracking concept for colleges. Recognized for innovation and presentation quality.</p>
+            </div>
+            <div class="resume-item">
+              <span class="resume-year accent">2025 — Online</span>
+              <h4>UI Design Sprint — Designathon</h4>
+              <p>Designed complete mobile app UI in 3 hours. Focused on healthcare accessibility.</p>
+            </div>
+          </div>
+          <div class="resume-col">
+            <h3 class="resume-col-title"><span class="resume-col-icon">📜</span> Certifications</h3>
+            <div class="resume-item">
+              <span class="resume-year accent">2024 — LinuxWorld</span>
+              <h4>Python Programming & Automation</h4>
+              <div class="resume-grade">Grade: <span class="accent">A</span></div>
+              <p>Hands-on certification covering scripting, automation, and Linux workflows.</p>
+            </div>
+            <div class="resume-item">
+              <span class="resume-year accent">2024 — Online</span>
+              <h4>Web Development Fundamentals</h4>
+              <div class="resume-grade">Grade: <span class="accent">A+</span></div>
+              <p>HTML5, CSS3, responsive design, and JavaScript essentials.</p>
+            </div>
+            <div class="resume-item">
+              <span class="resume-year accent">2024 — Online</span>
+              <h4>UI/UX Design Fundamentals</h4>
+              <div class="resume-grade">Grade: <span class="accent">A</span></div>
+              <p>Design principles, Figma workflows, and design thinking certification.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── SECTION 5: SERVICES / CLIENTS ─────────────── -->
+  <section id="services" class="section">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <span class="section-eyebrow">WHAT I OFFER</span>
+        <h2 class="section-title">My Services</h2>
+      </div>
+
+      <div class="clients-grid">
+        <div class="client-logo fade-up">🌐 Web Dev</div>
+        <div class="client-logo fade-up delay-1">🎨 UI/UX</div>
+        <div class="client-logo fade-up delay-2">🖼️ Graphic Design</div>
+        <div class="client-logo fade-up delay-1">🤖 Python Scripts</div>
+        <div class="client-logo fade-up delay-2">🎬 YouTube Edit</div>
+        <div class="client-logo fade-up delay-3">🏷️ Brand Identity</div>
+        <div class="client-logo fade-up">📱 App UI</div>
+        <div class="client-logo fade-up delay-1">📊 Infographics</div>
+      </div>
+
+      <!-- Testimonial -->
+      <div class="testimonial-block fade-up delay-2">
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">Uday delivered our brand identity exactly as envisioned — clean, modern, and professional. The turnaround was fast and the quality was exceptional. Highly recommended for any design or web work!</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AC</div>
+            <div>
+              <strong>A. Chaudhary</strong>
+              <span>Startup Founder, Jaipur</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">As a fellow student at VGU, I've seen Uday's leadership at IIC first-hand. His dedication to organizing events and bringing innovative ideas to life is truly inspiring. A real asset to our campus community.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RS</div>
+            <div>
+              <strong>R. Sharma</strong>
+              <span>B.Tech Peer, VGU</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── SECTION 6: PRICING ─────────────────────────── -->
+  <section id="pricing" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <span class="section-eyebrow">CHOOSE YOUR PLAN</span>
+        <h2 class="section-title">My Pricing</h2>
+      </div>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card fade-up">
+          <div class="pricing-badge">Starter</div>
+          <div class="pricing-service">Design Page</div>
+          <div class="pricing-amount">
+            <span class="pricing-currency">₹</span>
+            <span class="pricing-price">499</span>
+            <span class="pricing-period">/project</span>
+          </div>
+          <ul class="pricing-features">
+            <li>✓ Social Media Post</li>
+            <li>✓ 1 Revision</li>
+            <li>✓ PNG/JPG Files</li>
+            <li>✗ Source File</li>
+            <li>✗ Priority Support</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Get Started</a>
+        </div>
+
+        <div class="pricing-card pricing-card--featured fade-up delay-1">
+          <div class="pricing-badge">Popular</div>
+          <div class="pricing-service">Web + Design</div>
+          <div class="pricing-amount">
+            <span class="pricing-currency">₹</span>
+            <span class="pricing-price">2,499</span>
+            <span class="pricing-period">/project</span>
+          </div>
+          <ul class="pricing-features">
+            <li>✓ Full Website (5 pages)</li>
+            <li>✓ Responsive Design</li>
+            <li>✓ 3 Revisions</li>
+            <li>✓ Source Files</li>
+            <li>✓ 7-day Support</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Hire Me Now</a>
+        </div>
+
+        <div class="pricing-card fade-up delay-2">
+          <div class="pricing-badge">Pro</div>
+          <div class="pricing-service">Full Brand Package</div>
+          <div class="pricing-amount">
+            <span class="pricing-currency">₹</span>
+            <span class="pricing-price">5,999</span>
+            <span class="pricing-period">/project</span>
+          </div>
+          <ul class="pricing-features">
+            <li>✓ Logo + Brand Identity</li>
+            <li>✓ Full Website</li>
+            <li>✓ Social Media Kit</li>
+            <li>✓ Unlimited Revisions</li>
+            <li>✓ Priority Support</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Get Started</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SECTION 7: BLOG ────────────────────────────── -->
+  <section id="blog" class="section">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <span class="section-eyebrow">THOUGHTS & INSIGHTS</span>
+        <h2 class="section-title">My Blog</h2>
+      </div>
+
+      <div class="blog-grid">
+
+        <div class="blog-card fade-up">
+          <div class="blog-thumb blog-thumb--1">
+            <span>🚀</span>
+            <div class="blog-category accent">Hackathon</div>
+          </div>
+          <div class="blog-body">
+            <div class="blog-meta">
+              <span class="blog-date">Jan 2025 — Hackathon</span>
+            </div>
+            <h3><a href="#">How I Won My First Hackathon as a CSE Fresher</a></h3>
+            <p>Tips, mistakes, and the mindset that took our team to the finals at the Smart Campus Hackathon.</p>
+          </div>
+        </div>
+
+        <div class="blog-card fade-up delay-1">
+          <div class="blog-thumb blog-thumb--2">
+            <span>💻</span>
+            <div class="blog-category accent">Web Dev</div>
+          </div>
+          <div class="blog-body">
+            <div class="blog-meta">
+              <span class="blog-date">Dec 2024 — Web Dev</span>
+            </div>
+            <h3><a href="#">The Responsibility for the Frontend</a></h3>
+            <p>How to build clean, responsive websites using only HTML, CSS, and vanilla JavaScript — no frameworks needed.</p>
+          </div>
+        </div>
+
+        <div class="blog-card fade-up delay-2">
+          <div class="blog-thumb blog-thumb--3">
+            <span>🎓</span>
+            <div class="blog-category accent">Student Life</div>
+          </div>
+          <div class="blog-body">
+            <div class="blog-meta">
+              <span class="blog-date">Mar 2026 — Leadership</span>
+            </div>
+            <h3><a href="#">Mobile App Landing Design & Maintaining</a></h3>
+            <p>What it's really like being a Student Coordinator at IIC-VGU — the chaos, the growth, and everything in between.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SECTION 8: CONTACT ─────────────────────────── -->
+  <section id="contact" class="section section-alt">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <span class="section-eyebrow">DON'T BE SHY!</span>
+        <h2 class="section-title">Contact With Me</h2>
+      </div>
+
+      <div class="contact-layout">
+
+        <div class="contact-info fade-up">
+          <h3>Uday Raj Gupta</h3>
+          <p class="contact-tagline">Developer · Designer · Innovator</p>
+
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Jaipur, Rajasthan, India</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <span class="contact-label">Phone</span>
+                <span class="contact-value">+91 8084675334</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">udayrajgupta@email.com</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🎓</div>
+              <div>
+                <span class="contact-label">University</span>
+                <span class="contact-value">Vivekananda Global University</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="https://github.com"           target="_blank" class="csocial">GitHub</a>
+            <a href="https://linkedin.com"          target="_blank" class="csocial">LinkedIn</a>
+            <a href="https://youtube.com"           target="_blank" class="csocial">YouTube</a>
+            <a href="https://geeksforgeeks.org"     target="_blank" class="csocial">GFG</a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap fade-up delay-2">
+          <div class="contact-form-card" id="formCard">
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <input type="text" id="fname" class="form-control" placeholder="First Name" required />
+                </div>
+                <div class="form-group">
+                  <input type="text" id="lname" class="form-control" placeholder="Last Name" />
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="email" id="femail" class="form-control" placeholder="Email Address *" required />
+              </div>
+              <div class="form-group">
+                <select class="form-control" id="ftype">
+                  <option value="">Select Service</option>
+                  <option>Web Development</option>
+                  <option>UI/UX Design</option>
+                  <option>Graphic Design</option>
+                  <option>Python Automation</option>
+                  <option>YouTube Editing</option>
+                  <option>Brand Identity</option>
+                  <option>Internship / Collaboration</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="fmessage" placeholder="Your Message *" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+            </form>
+          </div>
+          <div class="form-success" id="formSuccess">
+            <div class="form-success-icon">✅</div>
+            <h3>Message Sent!</h3>
+            <p>Thanks for reaching out. I'll respond within 24 hours.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© 2025 <span class="accent">Uday Raj Gupta</span>. Crafted with precision & passion.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</main>
+
+<!-- Scroll to top -->
+<button class="scroll-top" id="scrollTop" title="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
