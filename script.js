@@ -298,3 +298,37 @@ styleSheet.textContent = `
   }
 `;
 document.head.appendChild(styleSheet);
+
+// URG HERO SECTION IMAGE PROFILE COURSEL 
+ const images = [
+    "assets/img1.jpg",
+    "assets/img2.jpg",
+    "assets/img3.jpg",
+    "assets/img4.jpg",
+    "assets/img5.jpg"
+  ];
+
+  const carousel = document.getElementById("profileCarousel");
+  let index = 0;
+
+  // Preload images (important for smoothness)
+  images.forEach(src => {
+    const img = new Image();
+    img.src = src;
+  });
+
+  function changeImage() {
+    carousel.style.opacity = "0";
+
+    setTimeout(() => {
+      carousel.style.backgroundImage = `url('${images[index]}')`;
+      carousel.style.opacity = "1";
+      index = (index + 1) % images.length;
+    }, 500);
+  }
+
+  // Set first image immediately
+  carousel.style.backgroundImage = `url('${images[0]}')`;
+  index = 1;
+
+  setInterval(changeImage, 3000);
