@@ -282,7 +282,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
   gap: 60px;
-  align-items: center;
+  align-items: left;
   width: 100%;
 }
 .home-welcome {
@@ -403,7 +403,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   flex-wrap: wrap;
 }
 /* ===============================
-   HERO PHOTO — PREMIUM VERSION
+   HERO IMAGE — COMPLETE REDESIGN
 ================================ */
 
 .home-photo {
@@ -412,60 +412,72 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   align-items: center;
 }
 
-.photo-container {
+.hero-visual {
   position: relative;
-  width: 320px;
-  height: 420px;
+  width: 380px;
+  height: 460px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Gradient Glow Blob */
-.photo-glow {
+/* Soft background circle */
+.hero-bg-circle {
   position: absolute;
-  width: 340px;
-  height: 340px;
+  width: 360px;
+  height: 360px;
   background: radial-gradient(circle at center,
-    rgba(255,0,102,0.35),
-    rgba(255,0,102,0.15),
+    rgba(255,0,102,0.18),
+    rgba(255,0,102,0.05),
     transparent 70%);
   border-radius: 50%;
-  filter: blur(40px);
-  animation: glowPulse 4s ease-in-out infinite alternate;
   z-index: 1;
-}
-
-@keyframes glowPulse {
-  from { transform: scale(1); }
-  to { transform: scale(1.1); }
 }
 
 /* PNG Image */
 .hero-photo {
   position: relative;
-  width: 100%;
-  max-width: 300px;
-  z-index: 2;
-  transition: transform 0.5s ease;
+  width: 300px;
+  z-index: 3;
+  animation: floatHero 4s ease-in-out infinite alternate;
+  filter: drop-shadow(0 30px 50px rgba(0,0,0,0.2));
 }
 
-/* Floating effect */
-.hero-photo:hover {
-  transform: translateY(-10px) scale(1.03);
+/* Floating animation */
+@keyframes floatHero {
+  from { transform: translateY(0px); }
+  to   { transform: translateY(-12px); }
 }
 
-/* Ground Shadow */
-.photo-shadow {
+/* Custom CSS Arc */
+.hero-arc {
   position: absolute;
-  bottom: 10px;
+  bottom: 99px;              /* adjust if needed */
+  width: 280px;
+  height: 140px;
+
+  border-bottom: 3px solid var(--accent);
+  border-radius: 0 0 280px 280px;
+
+  z-index: 5;                /* ABOVE image */
+  pointer-events: none;      /* so it doesn't block hover */
+}
+@keyframes glowArc {
+  from { box-shadow: 0 0 15px rgba(255,0,102,0.4); }
+  to   { box-shadow: 0 0 35px rgba(255,0,102,0.8); }
+}
+
+/* Ground shadow */
+.hero-shadow {
+  position: absolute;
+  bottom: 70px;
   width: 180px;
   height: 20px;
   background: radial-gradient(ellipse at center,
-    rgba(0,0,0,0.35),
+    rgba(0,0,0,0.4),
     transparent 70%);
   border-radius: 50%;
-  filter: blur(8px);
+  filter: blur(6px);
   z-index: 0;
 }
 /* Stats strip */
