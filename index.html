@@ -37,10 +37,10 @@
     <nav class="sidebar__nav">
       <a href="#home"          class="sidebar__nav-link active" data-section="home">Home</a>
        <a href="#portfolio"     class="sidebar__nav-link" data-section="portfolio">Projects</a>
-      <a href="#whatido"       class="sidebar__nav-link" data-section="whatido">Ventures</a>
-      <a href="#services"      class="sidebar__nav-link" data-section="services">Achievements</a>
+      <a href="#whatido"       class="sidebar__nav-link" data-section="whatido">My Platforms</a>
+      <a href="#services"      class="sidebar__nav-link" data-section="services">Services</a>
        <a href="#resume"        class="sidebar__nav-link" data-section="resume">Resume</a>
-      <a href="#blog"          class="sidebar__nav-link" data-section="blog">Works</a>
+      <a href="#blog"          class="sidebar__nav-link" data-section="blog">Achievements</a>
       <a href="#contact"       class="sidebar__nav-link" data-section="contact">Contact</a>
     </nav>
 
@@ -114,7 +114,7 @@
               <a href="https://github.com/uday-raj-gupta"           target="_blank" class="social-icon-skills si-git">GitHub
                 <img src="assets/github.png" alt="GitHub">
               </a>
-              <a href="https://geeksforgeeks.org"    target="_blank" class="social-icon-skills si-gfg">
+              <a href="https://www.geeksforgeeks.org/profile/udayrajgupta"    target="_blank" class="social-icon-skills si-gfg">
                 GeeksforGeeks <img src="assets/gfg-gg-logo.svg" alt="">
               </a>
               <a href="#"            target="_blank" class="social-icon-skills si-fig">CodeStudio</a>
@@ -131,13 +131,18 @@
       </div>
 
       <div class="home-photo fade-in-right delay-2">
-        <div class="photo-frame">
-  <div class="photo-placeholder" id="profileCarousel">
-    
+
+  <div class="photo-container">
+
+    <div class="photo-glow"></div>
+
+    <img src="assets/profile pic.png" alt="Uday Raj Gupta" class="hero-photo">
+
+    <div class="photo-shadow"></div>
+
   </div>
+
 </div>
-          
-        </div>
 
         <!-- Stats strip -->
         <div class="home-stats">
@@ -166,49 +171,81 @@
 
   <!-- ── SECTION 2: WHAT I DO ───────────────────────── -->
   <section id="whatido" class="section section-alt">
-    <div class="section-inner">
-      <div class="section-header fade-up">
-        <span class="section-eyebrow">My own </span>
-        <h2 class="section-title">Ventures</h2>
+  <div class="section-inner">
+    <div class="platform-bg">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+    <div class="section-header fade-up">
+      <span class="section-eyebrow">My own</span>
+      <h2 class="section-title">Platforms</h2>
+    </div>
+
+    <div class="services-grid">
+
+       <!-- YP GRAPHIX -->
+      <div class="service-card service-graphix fade-up delay-1">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+        </div>
+        <h3>YP GRAPHIX : UI & Graphics Design</h3>
+        <p>
+          <br>
+          Social media posters, event banners, and branding materials, 
+          Website frontend UI designs, wireframes, mockups and Figma prototypes.
+        </p>
+        <a href="#" class="platform-btn">Explore Platform →</a>
       </div>
 
-      <div class="services-grid">
 
-        <div class="service-card fade-up">
-          <div class="service-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
-          </div>
-          <h3>YP LOGIX : YouTube & Content</h3>
-          <p>YP Logix — a channel for tech insights, student life, and career content. <br> Promotional/Collaborative content creation as a Freelancer</p>
+      <!-- YP LOGIX -->
+      <div class="service-card service-logix fade-up">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <polygon points="23 7 16 12 23 17 23 7"/>
+            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+          </svg>
         </div>
+        <h3>YP LOGIX : YouTube & Content</h3>
+        <p>
+          <br>
+          YP Logix — a channel for tech insights, student life, and career content.
+          <br>
+          Promotional/Collaborative content creation as a Freelancer.
+        </p>
+        <a href="https://www.youtube.com/@yplogix" target="_blank" class="platform-btn">Visit Channel →</a>
+      </div>
 
-          
-        <div class="service-card fade-up delay-1">
-           <div class="service-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-          </div>
-          <h3>YP GRAPHIX : Graphics & UI Design</h3>
-          <p>Social media posters, event banners, flyers, and brand identity materials. <br>
-            Website Frontend UI designs, Wireframes, Mockups and Figma prototypes for startups and student orgs.
-          </p>
+     
+      <!-- YP CREATEX -->
+      <div class="service-card service-createx fade-up delay-2">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/>
+            <path d="M2 12l10 5 10-5"/>
+          </svg>
         </div>
        
-        <div class="service-card fade-up delay-1">
-         <div class="service-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-          </div>
-          <h3>YP CREATEX : Web Dev & Tech Services </h3>
-          <p>Building responsive, fast, and clean websites as per client requirements and best practices.
-            <br>
-            Tech solutions for students and small businesses — from automation scripts to other tech services.
-             </p>
-        </div>
-
-
+        <h3>YP CREATEX : Web Dev & Tech Services</h3>
+      
+        <p>
+          <br>
+          Building responsive, fast, and clean websites as per client requirements.
+          <br>
+          Tech solutions for students and small businesses like web pages etc.
+        </p>
+        <a href="#" class="platform-btn">Explore Platform →</a>
       </div>
-    </div>
-  </section>
 
+    </div>
+  </div>
+</section>
   <!-- ── SECTION 3: PORTFOLIO ───────────────────────── -->
   <section id="portfolio" class="section">
     <div class="section-inner">
@@ -230,28 +267,30 @@
 
         <div class="portfolio-item fade-up" data-category="web">
           <div class="portfolio-thumb port-blue">
-            <span class="port-emoji">🌐</span>
+           <img src="assets/netflix project img.JPG" alt="Netflix UI Project" class="portfolio-img">
             <div class="port-overlay">
               <div class="port-links">
-                <a href="#" class="port-link">Live ↗</a>
-                <a href="#" class="port-link">GitHub ↗</a>
+                <a href="https://uday-raj-gupta.github.io/Streaming-Platform-UI-Design-Netflix-Inspired/" target="_blank" class="port-link">Live ↗</a>
+                <a href="https://github.com/uday-raj-gupta/Netflix_Clone" target="_blank" class="port-link">GitHub ↗</a>
               </div>
             </div>
           </div>
           <div class="portfolio-info">
             <span class="port-category accent">Web Development</span>
-            <h3>Portfolio Website</h3>
-            <p>Multi-page personal portfolio built from scratch with HTML, CSS & JS animations.</p>
+            <h3>Netflix UI Clone : Project</h3>
+            <p>Netflix homepage UI clone built from scratch with HTML, CSS & JS animations.</p>
             <div class="port-meta">
-              <span>👁 1.2k</span>
-              <span>❤ 48</span>
+              <div class="port-links">
+                <a href="https://uday-raj-gupta.github.io/Streaming-Platform-UI-Design-Netflix-Inspired/" target="_blank" class="port-link">Live ↗</a>
+                <a href="https://github.com/uday-raj-gupta/Netflix_Clone" target="_blank" class="port-link">GitHub ↗</a>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="portfolio-item fade-up delay-1" data-category="design">
           <div class="portfolio-thumb port-pink">
-            <span class="port-emoji">🎨</span>
+              <img src="assets/yp graphix logo.png" alt="YP Graphix Brand Identity" class="portfolio-img">
             <div class="port-overlay">
               <div class="port-links">
                 <a href="#" class="port-link">View ↗</a>
@@ -261,94 +300,154 @@
           <div class="portfolio-info">
             <span class="port-category accent">Graphic Design</span>
             <h3>YP Graphix Brand Identity</h3>
-            <p>Complete visual identity — logo, color palette, social media kit and brand guide.</p>
+            <p>Complete visual identity — logo, color palette, social media kit and brand guide along with multiple design assets.</p>
             <div class="port-meta">
-              <span>👁 980</span>
-              <span>❤ 67</span>
+             <div class="port-links">
+                <a href="#" class="port-link">View ↗</a>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="portfolio-item fade-up delay-2" data-category="python">
           <div class="portfolio-thumb port-green">
-            <span class="port-emoji">🤖</span>
+           <img src="assets/JARVIS AI ASSISTANT IMAGE.png" alt="Jarvis AI Assistant" class="portfolio-img">
             <div class="port-overlay">
               <div class="port-links">
-                <a href="#" class="port-link">GitHub ↗</a>
+                <a href="https://github.com/uday-raj-gupta/jarvis" target="_blank" class="port-link">GitHub ↗</a>
               </div>
             </div>
           </div>
           <div class="portfolio-info">
             <span class="port-category accent">Python</span>
-            <h3>Automation Suite</h3>
-            <p>File management, web scraping, and task scheduling scripts from LinuxWorld training.</p>
+            <h3>Mini Automation Projects</h3>
+            <p><a href="https://github.com/uday-raj-gupta/jarvis" target="_blank"> <b>Jarvis AI Assistant </b> </a> as a part of my Python Programming Learning and training.</p>
             <div class="port-meta">
-              <span>👁 720</span>
-              <span>❤ 31</span>
+              <div class="port-links">
+                <a href="https://github.com/uday-raj-gupta/jarvis" target="_blank" class="port-link">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item fade-up delay-2" data-category="python">
+          <div class="portfolio-thumb port-green">
+           <img src="assets/YP CHATBOT.png" alt="YP BOT with Gemini API" class="portfolio-img">
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="https://github.com/uday-raj-gupta/Python-Programming-LinuxWorld/blob/main/YP%20BOT.ipynb" target="_blank" class="port-link">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="port-category accent">Python</span>
+            <h3>Mini Automation Projects</h3>
+            <p><a href="https://github.com/uday-raj-gupta/Python-Programming-LinuxWorld/blob/main/YP%20BOT.ipynb" target="_blank"><b>YP BOT with Gemini API</b></a> as a part of my Python Programming Learning and training.</p>
+            <div class="port-meta">
+             <div class="port-links">
+                <a href="https://github.com/uday-raj-gupta/Python-Programming-LinuxWorld/blob/main/YP%20BOT.ipynb" target="_blank" class="port-link">GitHub ↗</a>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="portfolio-item fade-up" data-category="web">
           <div class="portfolio-thumb port-purple">
-            <span class="port-emoji">📊</span>
+             <img src="assets/dhan vijeta site img.JPG" alt="Dhan Vijeta Site" class="portfolio-img">
             <div class="port-overlay">
               <div class="port-links">
-                <a href="#" class="port-link">Live ↗</a>
-                <a href="#" class="port-link">GitHub ↗</a>
+                <a href="https://dhanvijeta.in" target="_blank" class="port-link">Live ↗</a>
               </div>
             </div>
           </div>
           <div class="portfolio-info">
             <span class="port-category accent">Web Development</span>
-            <h3>Analytics Dashboard UI</h3>
-            <p>Responsive analytics dashboard with charts, KPIs and data visualization.</p>
+            <h3>Dhan Vijeta : Trading Courses Selling Site</h3>
+            <p>Trading Courses Selling Website with the payment gateway integration and discount cupoon code system along with the admin dashboard.</p>
             <div class="port-meta">
-              <span>👁 540</span>
-              <span>❤ 29</span>
+          <div class="port-links">
+                <a href="https://dhanvijeta.in" target="_blank" class="port-link">Live ↗</a>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="portfolio-item fade-up delay-1" data-category="hackathon">
           <div class="portfolio-thumb port-orange">
-            <span class="port-emoji">⚡</span>
+            <img src="assets/codered 4 hackathon.jpeg" alt="CODE RED 4.0 VGU CAMPPUS HACKATHON" class="portfolio-img">
             <div class="port-overlay">
               <div class="port-links">
-                <a href="#" class="port-link">GitHub ↗</a>
+                <a href="#" class="port-link">Read Documentation ↗</a>
               </div>
             </div>
           </div>
           <div class="portfolio-info">
             <span class="port-category accent">Hackathon</span>
-            <h3>Smart Campus Solution</h3>
-            <p>24-hour hackathon project — real-time campus resource management system.</p>
+            <h3>CODE RED 4.0 VGU CAMPUS HACKATHON</h3>
+            <p>72-hour hackathon project — Food waste management system.</p>
             <div class="port-meta">
-              <span>👁 860</span>
-              <span>❤ 52</span>
+            <a href="#" class="port-link">Read Documentation ↗</a>
+            </div>
+          </div>
+        </div>
+         <div class="portfolio-item fade-up delay-1" data-category="hackathon">
+          <div class="portfolio-thumb port-orange">
+            <img src="assets/digifest hackathon.png" alt="TGS Digifest Hackathon" class="portfolio-img">
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link">Read Documentation ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="port-category accent">Hackathon</span>
+            <h3>TGS Digifest Hackathon</h3>
+            <p>24-hour hackathon project —Tourism intelligence and footfall analytics platform.</p>
+            <div class="port-meta">
+            <a href="#" class="port-link">Read Documentation ↗</a>
             </div>
           </div>
         </div>
 
         <div class="portfolio-item fade-up delay-2" data-category="design">
           <div class="portfolio-thumb port-teal">
-            <span class="port-emoji">📱</span>
+             <img src="assets/recuration website figma.JPG" alt="Recuration Pvt. Ltd. UI Design" class="portfolio-img">
+            
             <div class="port-overlay">
               <div class="port-links">
-                <a href="#" class="port-link">Figma ↗</a>
+                <a href="https://www.figma.com/design/X46EnEJtzIb7SdNZZqt2oT/Untitled?node-id=0-1&t=U1JBA6Z6vowj8MRp-1" target="_blank" class="port-link">Figma ↗</a>
               </div>
             </div>
           </div>
           <div class="portfolio-info">
             <span class="port-category accent">UI Design</span>
-            <h3>Campus Event App UI</h3>
-            <p>Mobile UI/UX design for campus event management app with interactive Figma prototype.</p>
+            <h3>Recuration Pvt. Ltd.</h3>
+            <p>Mobile and Desktop Website UI/UX design for Recuration Pvt. Ltd. full frontend and UI design in Figma.</p>
             <div class="port-meta">
-              <span>👁 430</span>
-              <span>❤ 38</span>
+               <div class="port-links">
+                <a href="https://www.figma.com/design/X46EnEJtzIb7SdNZZqt2oT/Untitled?node-id=0-1&t=U1JBA6Z6vowj8MRp-1" target="_blank" class="port-link">Figma ↗</a>
+              </div>
             </div>
           </div>
         </div>
+        <div class="portfolio-item fade-up delay-1" data-category="hackathon">
+          <div class="portfolio-thumb port-orange">
+            <img src="assets/IDEA PITCH.jpeg" alt="Idea Pitch Event" class="portfolio-img">
+            <div class="port-overlay">
+              <div class="port-links">
+                <a href="#" class="port-link">Read Documentation ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <span class="port-category accent">Hackathon</span>
+            <h3>Idea Pitch Event</h3>
+            <p>Pitch ideas for innovative projects in a competitive environment. Various learnings in presentation and idea development.</p>
+            <div class="port-meta">
+            <a href="#" class="port-link">Read Documentation ↗</a>
+            </div>
+          </div>
+        </div>
+
 
       </div>
     </div>
@@ -367,7 +466,7 @@
         <button class="resume-tab active" data-tab="education">Education</button>
         <button class="resume-tab" data-tab="skills">Professional Skills</button>
         <button class="resume-tab" data-tab="experience">Experience</button>
-        <button class="resume-tab" data-tab="achievements">Certifications</button>
+        <button class="resume-tab" data-tab="certifications">Certifications</button>
       </div>
 
       <!-- TAB: Education -->
@@ -375,7 +474,7 @@
         <div class="resume-two-col fade-up">
           <div class="resume-col">
             <h3 class="resume-col-title">
-              <span class="resume-col-icon">🎓</span> Education Quality
+              <span class="resume-col-icon"></span> Educational Qualifications
             </h3>
             <div class="resume-item">
               <span class="resume-year accent">2024 – 2028</span>
@@ -401,7 +500,7 @@
           </div>
           <div class="resume-col">
             <h3 class="resume-col-title">
-              <span class="resume-col-icon">💼</span>Internship \ Work Experience
+              <span class="resume-col-icon"></span>Internship \ Work Experience
             </h3>
             <div class="resume-item">
               <span class="resume-year accent">2026 – Present</span>
@@ -431,7 +530,7 @@
         <div class="resume-two-col fade-up">
           <div class="resume-col">
             <h3 class="resume-col-title">
-              <span class="resume-col-icon">💻</span> Development Skills
+              <span class="resume-col-icon"></span> Development Skills
             </h3>
             <div class="skill-bar-wrap">
               <div class="skill-entry">
@@ -458,7 +557,7 @@
           </div>
           <div class="resume-col">
             <h3 class="resume-col-title">
-              <span class="resume-col-icon">🎨</span> Design Skills
+              <span class="resume-col-icon"></span> Design Skills
             </h3>
             <div class="skill-bar-wrap">
               <div class="skill-entry">
@@ -490,7 +589,7 @@
       <div class="resume-panel" id="tab-experience">
         <div class="resume-two-col fade-up">
           <div class="resume-col">
-            <h3 class="resume-col-title"><span class="resume-col-icon">🏛️</span> Leadership</h3>
+            <h3 class="resume-col-title"><span class="resume-col-icon"></span> Leadership</h3>
             <div class="resume-item">
               <span class="resume-year accent">2026 – Present</span>
               <h4>Student Coordinator — IIC-VGU</h4>
@@ -503,7 +602,7 @@
             </div>
           </div>
           <div class="resume-col">
-            <h3 class="resume-col-title"><span class="resume-col-icon">🚀</span> Ventures</h3>
+            <h3 class="resume-col-title"><span class="resume-col-icon"></span> Ventures</h3>
             <div class="resume-item">
               <span class="resume-year accent">2023 – Present</span>
               <h4>YP Graphix — Freelance Designer</h4>
@@ -519,9 +618,10 @@
       </div>
 
       
-          
+          <div class="resume-panel" id="tab-certifications">
+        <div class="resume-two-col fade-up">
           <div class="resume-col">
-            <h3 class="resume-col-title"><span class="resume-col-icon">📜</span> Certifications</h3>
+            <h3 class="resume-col-title"><span class="resume-col-icon"></span> Certifications</h3>
             <div class="resume-item">
               <span class="resume-year accent">2025 — LinuxWorld</span>
               <h4>Python Programming & Automation</h4>
@@ -557,6 +657,123 @@
   <section id="services" class="section">
     <div class="section-inner">
       <div class="section-header fade-up">
+        <span class="section-eyebrow">WHAT I DO</span>
+        <h2 class="section-title">My Services</h2>
+      </div>
+
+      <div class="clients-grid">
+        <div class="client-logo fade-up">Web Development</div>
+        <div class="client-logo fade-up delay-1">UI/UX Design</div>
+        <div class="client-logo fade-up delay-2">Graphics Design</div>
+        <div class="client-logo fade-up delay-1">Python Automation</div>
+        <div class="client-logo fade-up delay-2">YouTube Promotions</div>
+        <div class="client-logo fade-up delay-3">GMB & SEO Ranking</div>
+        <div class="client-logo fade-up">Freelancer</div>
+        <div class="client-logo fade-up delay-1">Open To Work</div>
+      </div>
+
+      <!-- Testimonial -->
+      <div class="testimonial-block fade-up delay-2">
+        <div class="testimonial-track">
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">Uday built and still managing our brands Digital Presence <a href="https://dhanvijeta.in"  target="_blank"> <b>DHAN VIJETA</b></a> website, SEO & GMB and this was a great support for me as being an emerging startup. <a href="https://dhanvijeta.in"  target="_blank">Visit our Website: Click here</a> </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">NC</div>
+            <div>
+              <strong>Nilesh Chaudhary</strong>
+              <span>Founder "Dhan Vijeta"</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">As being an Graphics Designer & Editor, I've worked with Uday on multiple projects. At YP Graphix and found him that he is not only a developer or designer along with that a good companion & leader also supports in all needs </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AR</div>
+            <div>
+              <strong>Abhinav Raj</strong>
+              <span>Graphics Designer & Editor</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">I own a cyber cafe and Uday works as freelancer for me via his Ventures YP Graphix. Creates posters and banners, promotional posts etc. Which are very helpful for my business growth.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RK</div>
+            <div>
+              <strong>Rahul Kumar</strong>
+              <span>Owner "Rahul Cyber Cafe"</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">We do student's carrier counselling and Uday Raj Gupta has been a great help in promoting our services online and managing our digital presence. With his branding materials and design work, our visibility has increased significantly.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AA</div>
+            <div>
+              <strong>Admission Adda</strong>
+              <span>Counsellor "Addmission Adda"</span>
+            </div>
+          </div>
+        </div>
+        <!-- same 4 cards for loop marquee effect -->
+         <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">Uday built and still managing our brands Digital Presence <a href="https://dhanvijeta.in"  target="_blank"> <b>DHAN VIJETA</b></a> website, SEO & GMB and this was a great support for me as being an emerging startup. <a href="https://dhanvijeta.in"  target="_blank">Visit our Website: Click here</a> </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">NC</div>
+            <div>
+              <strong>Nilesh Chaudhary</strong>
+              <span>Founder "Dhan Vijeta"</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">As being an Graphics Designer & Editor, I've worked with Uday on multiple projects. At YP Graphix and found him that he is not only a developer or designer along with that a good companion & leader also supports in all needs </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AR</div>
+            <div>
+              <strong>Abhinav Raj</strong>
+              <span>Graphics Designer & Editor</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">I own a cyber cafe and Uday works as freelancer for me via his Ventures YP Graphix. Creates posters and banners, promotional posts etc. Which are very helpful for my business growth.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RK</div>
+            <div>
+              <strong>Rahul Kumar</strong>
+              <span>Owner "Rahul Cyber Cafe"</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">We do student's carrier counselling and Uday Raj Gupta has been a great help in promoting our services online and managing our digital presence. With his branding materials and design work, our visibility has increased significantly.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AA</div>
+            <div>
+              <strong>Admission Adda</strong>
+              <span>Counsellor "Addmission Adda"</span>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+
+    </div>
+  </section>
+  <!--
+  <section id="achievements" class="section">
+    <div class="section-inner">
+      <div class="section-header fade-up">
         <span class="section-eyebrow">WHAT I OFFER</span>
         <h2 class="section-title">My Services</h2>
       </div>
@@ -571,8 +788,8 @@
         <div class="client-logo fade-up">📱 App UI</div>
         <div class="client-logo fade-up delay-1">📊 Infographics</div>
       </div>
-
-      <!-- Testimonial -->
+    -->
+      <!-- Testimonial 222222
       <div class="testimonial-block fade-up delay-2">
         <div class="testimonial-card">
           <div class="testimonial-quote">"</div>
@@ -600,6 +817,7 @@
 
     </div>
   </section>
+    --> 
 
  
   <!-- ── SECTION 7: BLOG ────────────────────────────── -->
